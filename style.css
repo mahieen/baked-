@@ -1,0 +1,387 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+ }
+ body{
+   background-image: url(images/bg.jpg);
+   border: border-box;
+ }
+
+ .header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/bakery.jpg);
+    background-position: center;
+    background-size: cover;
+   
+ }
+ .navbar {
+    width: 100%;
+  }
+  .navbar a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    width: 14.3%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+    font-style: oblique;
+    font-weight: bolder;
+  }
+  .navbar a:hover {
+    background-color: #edd712;
+    color: #0b0b0b;
+  }
+ 
+    .navbar a.active {
+        background-color: purple;
+        color: yellow;
+      }
+      .channels a{
+        float: right;
+        color: white;
+        text-decoration: none;
+        margin-top: 30px;
+        margin-left: 2%;
+        font-size: 25px;
+        font-weight: 500;
+        font-weight: bolder;
+        text-align: center;
+        font-style: oblique;
+      }
+      .channels a:hover{
+        background-color: blue;
+        color: white;
+      }
+      .h h3{
+         margin-top: 12%;
+        color: #edd712;
+        font-size: medium;
+        font-size: 50px;
+        font-style: italic;
+        text-align: left;
+        text-indent: 32px;
+       
+      }
+      
+      .h h1{
+      color: white;
+      text-align: left;
+      font-size: large;
+      font-size: 100px;
+      font-weight: 700;
+      margin-bottom: none;
+      font-size: bold;
+      text-indent: 10px;
+      letter-spacing: -1px;
+    }
+    .h p{
+      color: white;
+      text-align: left;
+      font-size: large;
+      font-size: 26px;
+      font-style: trirong;
+      margin-top: 0%;
+      margin-left: 2%;
+      text-indent: -2px;
+      letter-spacing: -1px;
+    
+    }
+    .button {
+      border: none;
+      color: rgb(233, 233, 24);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 12% 11%;
+      cursor: pointer;
+    } 
+    
+    .button1 {
+      background-color: #edd712;
+      color: white;
+      border: 2px solid #0b0b0b;
+      font-style: inherit;
+      font-style: italic;
+      text-align: center;
+    }
+  
+    .button1:hover {
+      background-color: #edd712;
+      color: rgb(15, 15, 15);
+    }
+     .icon i{
+    
+      font-size: 42px;
+      font-weight: 600;
+    }
+    <!-- -->
+     .about{
+      min-height: 120vh;
+      width: 100%;
+    
+     }
+     .wrap{
+      text-align: center;
+      background-color: white;
+       min-height: 5px;
+       width: 100%;
+       margin-top: 6%;
+  
+     }
+   h3{
+    margin: auto;
+    color: #edd712;
+    font-size: large;
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: -5px;
+  }
+    
+    h2{
+      margin: auto;
+      color: black;
+      font-size: large;
+      font-size: 60px;
+      font-weight: bold;
+      font-style: oblique;
+      text-align: center;
+     }
+     .and{
+      padding-top: 0%;
+      float: left;
+      text-align: justify;
+     }
+     .container{
+      display: flex;
+      width: 80%;
+      margin: 52px 52px 52px 52px;
+     }
+  .container img{
+  text-align: right;
+  height: 50%;
+  width: 40%;
+  margin: 22px 32px 32px 32px;
+ }
+ .text{
+   display: flexbox;
+   margin-left: 32px;
+ }
+ .text h2{
+  color: black;
+  font-size: large;
+  font-size: 40px;
+  font-style: normal;
+  text-align: justify;
+  margin-bottom: auto;
+ }
+ .text p{
+  margin-top: none;
+  font-size: large;
+  text-align: justify;
+  font-size: 20px;
+}
+.button {
+  border: none;
+  color: rgb(233, 233, 24);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 2% 1%;
+  cursor: pointer;
+} 
+
+.button1 {
+  background-color: #0b0b0b;
+  color: white;
+  border: 2px solid rgb(15, 15, 14);
+  font-style: inherit;
+  font-style: italic;
+}
+
+.button1:hover {
+  background-color: #edd712;
+  color: rgb(15, 15, 15);
+}
+.button2 {
+  background-color: #0b0b0b;
+  color: white;
+  border: 2px solid rgb(11, 11, 11);
+  font-style: inherit;
+  font-style: italic;
+}
+
+.button2:hover {
+  background-color: yellow;
+  color: black;
+}
+  
+ .wrapper{
+  border: 1px ;
+  position: absolute;
+  width: 50vw;
+  left: 20%;
+  top: 210%;
+  display: flex;
+  gap: 70px;
+  justify-content: space-around;
+ }
+ .containers{
+  width: 26min;
+  height: 26min;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em 0;
+  position: relative;
+  font-size: 16px;
+  border-radius: 0.5em;
+  background-color: purple;
+  border-bottom: 25px solid yellow;
+ }
+ i{
+  color: yellow;
+  font-size: 2.5em;
+  text-align: center;
+ }
+ span.num{
+  color: white;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+ }
+ span.text{
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  padding: 0.7em 0;
+  font-weight: 400;
+  line-height: 0;
+ }
+ @media screen and(max-width:1024px) {
+  .wrapper{
+    width: 85vw;
+  }
+  .containers{
+    height: 26min;
+    height: 26min;
+    font-size: 12px;
+  }
+ }
+  
+ @media screen and(max-width:768px) {
+  .wrapper{
+    width: 90vw;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .containers{
+    height: 30vmin;
+    font-size: 12px;
+    font-size: 14p;
+  }
+ }
+ .menu{
+  min-height: 100vh;
+  width: 100%;
+ background-color: white;
+}
+.menu-item {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Style for images */
+.menu-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Style for hover effect */
+.menu-item:hover {
+  transform: scale(1.1);
+}
+
+/* Style for overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for overlay text */
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+}
+
+/* Show overlay text on hover */
+.menu-item:hover .overlay {
+  opacity: 1;
+}
+
+.menu-item:hover .overlay-text {
+  display: block;
+}
+
+.contact{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(images/backeeed.jpg);
+  background-size: cover;
+  background-position: center;
+ }
+ form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid purple;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: larger;
+  font-weight: 400;
+}
+input[type=submit] {
+  background-color: purple;
+  color: black;
+  padding: 17px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: yellow;
+  color: purple;
+}
